@@ -31,72 +31,31 @@ document.getElementById (id).style.display=vis;
 </script>
 <body link="#0076EB" vlink="#0076EB" alink="#0076EB">
 
-<h2>Data Library on Occupational Characteristics </h2>
+<h2>Data Library on Industry Closures and Reopening </h2>
 
 <br> 
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; This page provides access to and explains the construction of the datasets used in "The <br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Evolution of Work in the United States" and "New Technologies and the Labor Market." These<br> 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; datasets were constructed from text originally published in the Boston Globe, New York Times,<br> 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; and Wall Street Journal. The datasets contain information on occupations'  skill requirements,<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; technology usage, work activities, work styles, and other job characteristics, between 1940<br> 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; and 2000. <br> 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; This page provides access to and explains the construction of the datasets used in "How <br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Should We Reopen The Economy?" These datasets were constructed from text of states' and <br> 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; municipalities' executive orders, promulgated March to June, 2020. <br> 
 
 <br>
 
 <div id="data"></div>
 <h3> Downloadable Data </h3>
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  A) <a href="https://www.dropbox.com/s/tsnsdjub57kz4bv/data_by_job_title_year.zip"> By job title and year</a> (388MB)  <br> <span style="display:block;margin-bottom:2px;"></span>
-
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  B) <a href="https://www.dropbox.com/s/0xjh52bziwl33xm/data_by_job_title.zip"> By job title </a>  (308MB) <br> <span style="display:block;margin-bottom:2px;"></span>
-
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  C) <a href="http://occupationdata.github.io/data_by_soc_code_year.dta"> By SOC code and year</a> (73MB)  <br> <span style="display:block;margin-bottom:2px;"></span>
-
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  D) <a href="http://occupationdata.github.io/data_by_soc_code.dta"> By SOC code </a>  (1.5MB) <br> <span style="display:block;margin-bottom:2px;"></span>
-
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  E) <a href="http://occupationdata.github.io/data_by_occ_code_year.dta"> By OCC code and year</a> (46MB)  <br> <span style="display:block;margin-bottom:2px;"></span>
-
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  F) <a href="http://occupationdata.github.io/data_by_occ_code.dta"> By OCC code </a>  (1.0MB) <br> <span style="display:block;margin-bottom:2px;"></span>
-
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  G) <a href="https://www.dropbox.com/s/v9vpklrvqomacxw/data_by_job_title_year_source.zip"> By job title, source, and year </a> (405MB)  <br> <span style="display:block;margin-bottom:2px;"></span>
-
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  H) <a href="https://www.dropbox.com/s/mo0jr73w2xpxnhr/data_by_job_title_source.zip"> By job title and source </a>  (313MB) <br> <span style="display:block;margin-bottom:2px;"></span>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://reopeningdata.github.io/reopening.zip"> Main Dataset </a> (Last Updated 7/4/20)  <br> <span style="display:block;margin-bottom:2px;"></span>
 
 <br>
 
 <div id="documentation"></div>
-<h3>  Documentation </h3>
+<h3>  Documentation, Replication Files, and Supplmentary Files </h3>
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  1) <a href="http://occupationdata.github.io/apst_codebook.pdf"> Codebook/Overview </a> of the dataset <br> <span style="display:block;margin-bottom:2px;"></span>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  2) <a href="http://occupationdata.github.io/apst_cleaning.pdf"> Description </a> of the initial text cleaning  <br> 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-<a href="https://github.com/phaiptt125/newspaper_project/blob/master/data_cleaning/initial_cleaning.ipynb"> Python Notebook </a>  related to this step.
-<br> <span style="display:block;margin-bottom:2px;"></span>
-
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   3) <a href="http://occupationdata.github.io/apst_lda.pdf"> Details </a> of the LDA procedure to classify ads as jobs ads vs. other types of ads <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://occupationdata.github.io/lda_results.xlsx"> LDA </a> results <br> 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-<a href="https://github.com/phaiptt125/newspaper_project/blob/master/data_cleaning/LDA.ipynb"> Python Notebook </a> related to this step.
-
-<br> <span style="display:block;margin-bottom:2px;"></span>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  4) <a href="http://occupationdata.github.io/apst_titles.pdf"> Details </a> of the procedure to discern the job title, boundaries between ads <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  A <a href="http://occupationdata.github.io/TitleBase.txt"> list </a> of job title words.
-<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <a href="https://github.com/phaiptt125/newspaper_project/blob/master/data_cleaning/structured_data.ipynb"> Python Notebook</a> related to this step.  <span style="display:block;margin-bottom:2px;"></span> 
-
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 5) <a href="http://occupationdata.github.io/apst_mapping.xlsx"> Mapping </a> between occupational characteristics and words/phrases <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <a href="https://www.dropbox.com/s/kn7a1w8yx6qz4dm/soc_occ_to_job_title_mapping.zip"> Mapping </a> between job titles, SOC codes, and OCC codes <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
- <a href="http://occupationdata.github.io/soc_occ_to_job_title_mapping_explanation.xlsx"> Description </a> of the variables in the mapping between job titles to occupation codes. <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; An <a href="http://occupationdata.github.io/apst_mapping.pdf"> explanation </a> for these mappings <br>   
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-<a href="https://github.com/phaiptt125/newspaper_project/blob/master/data_cleaning/CBOW.ipynb"> Python Notebook</a>: estimating the CBOW model <br>   
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-<a href="https://github.com/phaiptt125/newspaper_project/blob/master/data_cleaning/assign_SOC.ipynb"> Python Notebook</a>: retrieving SOC codes from the CBOW model. <br>   
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-
-<br> <br> <span style="display:block;margin-bottom:2px;"></span>
-<hr style="border-top: dashed 2.2px;" width="680"  align="left" />
-The downloadable data were last updated May 15, 2019. <br>
-For the first version of the data, available from July 1, 2017 to April 6, 2018, see the following <a href="http://occupationdata.github.io/occupation_data_0717_to_0318.html "> link</a>. 
-<br>
-For the second version of the data, available from April 7, 2018 to May 15, 2019, see the following <a href="http://occupationdata.github.io/occupation_data_0318_to_0519.html "> link</a>. <br>
-For a summary of the differences between the first and second versions, see the following <a href="http://occupationdata.github.io/differences_between_versions_1_and_2.txt "> document</a>. 
-<br> For a summary of the differences between the second and third versions, see the following <a href="http://occupationdata.github.io/differences_between_versions_2_and_3.txt "> document</a>. <br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://reopeningdata.github.io/reopening_il.xlsx"> Reopening in Illinois </a> (Last Updated 7/4/20)  <br> <span style="display:block;margin-bottom:2px;"></span>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://reopeningdata.github.io/reopening_ny.xlsx"> Reopening in New York </a> (Last Updated 7/4/20)  <br> <span style="display:block;margin-bottom:2px;"></span>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://reopeningdata.github.io/reopening_pa.xlsx"> Reopening in Pennsylvania </a> (Last Updated 7/4/20)  <br> <span style="display:block;margin-bottom:2px;"></span>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://reopeningdata.github.io/reopening_va.xlsx"> Reopening in Virginia </a> (Last Updated 7/4/20)  <br> <span style="display:block;margin-bottom:2px;"></span>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://reopeningdata.github.io/reopening_wa.xlsx"> Reopening in Washington </a> (Last Updated 7/4/20)  <br> <span style="display:block;margin-bottom:2px;"></span>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://reopeningdata.github.io/reopening_other.xlsx"> Reopening in All Other States </a> (Last Updated 7/4/20)  <br> <span style="display:block;margin-bottom:2px;"></span>
 
 </html>
