@@ -1,0 +1,75 @@
+<title> Updates </title>
+
+<style type="text/css">
+<!--
+A{text-decoration:none}
+-->
+<!--
+body{
+font-family: Helvetica, Arial, sans-serif ; font-size:11.0pt;
+   min-width:1130px; 
+   _width: expression( document.body.clientWidth > 1130 ? "1130px" : "auto" ); 
+}
+-->
+   .more {
+      display: none;
+      }
+   a.showLink, a.hideLink {
+      text-decoration: none;
+      color: #18b018;
+      padding-left: 42px;
+      background: transparent url(down.gif) no-repeat left; }
+   a.hideLink {
+      background: transparent url(up.gif) no-repeat left; }
+   a.showLink:hover, a.hideLink:hover {
+       }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  z-index: 99;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #222;
+}
+
+<script>
+function change(id,vis){
+document.getElementById (id).style.display=vis;
+}
+</script>
+<body link="#0076EB" vlink="#0076EB" alink="#0076EB">
+</style>
+
+<h2> Updates on Industry Closures and Reopening </h2>
+&nbsp;  &nbsp;  &nbsp; This page lists the updates to state orders that we make in each version of the dataset
+<br>   &nbsp;  &nbsp;  &nbsp; To return to the main data page <a href="https://reopeningdata.github.io/index.html">click here</a>
+<h4> August 5 Version </h4>
+<ul>
+<li>Added variables indicating whether industries were open as of July 31 or as of August 7</li>
+<li>Added movie theaters (50% capacity) and gyms to Washington’s Phase III essential <br> industry list (reopening_wa.xlsx)</li>
+<li>Kentucky closes bars in the last week of July. Santa Cruz County and San Mateo County <br> in California were added to the state’s watch list in that week. (create_dataset.do)</li>
+<li>South Carolina allows movie theaters, concert halls, and sport arenas to open on August 3<br> (reopening_other.xlsx)</li>
+<li>Previously, we had categorized Allegheny County, Pennyslyvania as having closed restaurants<br> and bars from the weeks of July 3 to July 17. In fact, outdoor service was allowed beginning<br> July 8</li>
+</ul>
+<h4> July 21 Version  </h4>
+<ul>
+<li>Added variables indicating whether industries were open as of July 17 or as of July 24</li>
+<li>New York, New York City moved into the final phase of the state’s reopening plan</li>
+<li>California increased the scope of its re-closures</li>
+<li>Louisiana, Pennsylvania and New York closed bars statewide</li>
+<li>Bars closed in Monongalia County, West Virginia</li>
+</ul>
+</body>
+</html>
